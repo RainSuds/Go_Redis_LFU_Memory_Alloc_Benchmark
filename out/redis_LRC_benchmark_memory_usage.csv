@@ -1,6 +1,6 @@
 Stage,Allocated Memory (MiB),Total Allocated Memory (MiB),System Memory (MiB),Number of Garbage Collections,Idle Heap Memory (MiB)
 After writing 700000 entries with 240-byte values,237,270,247,7,1
 After writing 170000 entries with 492-byte values,260,360,329,8,57
-After manual GC,248,360,330,9,70
-After reading 350000 entries,248,360,330,9,70
-Final GC,0,360,330,10,318
+After manual GC,248,360,329,9,70
+After reading 350000 entries,248,360,329,9,70
+Final GC,0,360,329,10,318

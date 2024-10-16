@@ -10,7 +10,7 @@ num_gc = []
 heap_idle = []
 freed = []
 
-with open('redis_LRC_benchmark_memory_usage.csv', 'r') as file:
+with open('out/redis_LRC_benchmark_memory_usage.csv', 'r') as file:
     reader = csv.DictReader(file)
     for row in reader:
         stages.append(row['Stage'])
@@ -34,5 +34,5 @@ plt.legend()
 plt.tight_layout()
 
 # Save or display the plot
-plt.savefig('memory_usage_plot.png')
+plt.savefig('out/memory_usage_plot.png')
 plt.show()

@@ -76,7 +76,7 @@ func main() {
 		return
 	}
 
-	csvfile, err := os.Create("redis_LRC_benchmark_memory_usage.csv")
+	csvfile, err := os.Create("out/redis_LRC_benchmark_memory_usage.csv")
 	if err != nil {
 		fmt.Println("Error creating CSV file:", err)
 		return
